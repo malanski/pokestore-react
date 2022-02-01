@@ -1,0 +1,134 @@
+.navigation{
+    background: rgb(0, 0, 0);
+    border-bottom: solid 1px white;
+    display: flex;
+
+    .container {
+        justify-content: space-between;
+        > div {
+            display: flex;
+        }
+    }
+
+    .nav-links{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-left: 30px;
+        align-self: stretch;
+        li{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            &:hover a {
+                border-bottom: 8px solid;
+            }
+            &:nth-child(1) {
+                a { border-bottom-color: #ff0000 }
+            }
+            &:nth-child(2) {
+                a { border-bottom-color: #3b4cca }
+            }
+            &:nth-child(3) {
+                a { border-bottom-color: #ffde00 }
+            }
+            a {
+                &.active{
+                    border-bottom-width: 8px;
+                }
+                border-bottom: 3px solid;
+                align-self: stretch;
+                display: flex;
+                align-items: center;
+                padding: 0 30px;
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .btn-cart{
+        border: none;
+        position: relative;
+        background: none;
+        cursor: pointer;
+        font-size: 20px;
+        &:active, &:focus {
+            border: 0;
+            outline: 0;
+        }
+        &:hover {
+            color: greenyellow;
+        }
+        .pokeball-count {
+            background-color: green;
+            color: white;
+            position: absolute;
+            right: -3px;
+            top: 3px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            height: 22px;
+            width: 22px;
+            border-radius: 50%;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+}
+
+.pokeball {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    border: 0 solid #ccc;
+    border-radius: 50%;
+    background-image: -moz-radial-gradient(40% 40%, circle, rgba(0,0,0, .1) 40%, rgba(0, 0, 0, 1) 100%), -moz-linear-gradient(-90deg, #f33 45%, #333 45%, #3f3f3f 50%, #333 55%, white 55%);
+    background-image: -webkit-radial-gradient(40% 40%, circle, rgba(0,0,0, .1) 40%, rgba(0, 0, 0, 1) 100%), -webkit-linear-gradient(-90deg, #f33 45%, #333 45%, #3f3f3f 50%, #333 55%, white 55%);
+
+    &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 6;
+        width: 20%;
+        height: 20%;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px #AAA, 0 0 0 3px #fff, 0 0 0 3px #3f3f3f;
+        margin: 40%;
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        width: 94%;
+        height: 10%;
+        background-color: rgba(0,0,0, 0);
+        margin: 45% 3%;
+        box-shadow: 3px 0 0 #fff, -4px 0 0 #fff;
+    }
+
+    &:hover {
+        animation: shake .6s infinite;
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        -webkit-transform: rotate(-10deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(10deg);
+    }
+}
