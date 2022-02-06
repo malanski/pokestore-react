@@ -13,6 +13,7 @@ import { Cart } from './components/Cart';
 import { Home } from './pages/Home';
 import { Pokemon } from './pages/Pokemon';
 import { Contact } from './pages/Contact';
+import { About } from './pages/About';
 import { Category } from './pages/Category';
 
 import './assets/scss/App.scss';
@@ -48,6 +49,7 @@ function App() {
                 <Route path='/' element={<Home />}/>
                 <Route path='/contact' element={<Contact />}/>
                 <Route path='/category' element={<Category />}/>
+                <Route path='/about' element={<About />}/>
                 <Route path='/pokemon/:id' element={<Pokemon />}/>
               </Routes>
 

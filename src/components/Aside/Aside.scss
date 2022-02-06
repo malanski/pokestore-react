@@ -5,7 +5,19 @@ aside{
     width: 28vw;
     height: auto;
     padding: 5px;
-    margin-right: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    h3{
+        text-align: center;
+        font-family: "Pokemon Solid";
+        margin-bottom: 0;
+    }
+    iframe{
+        margin-top: 20px;
+        width: 102%;
+        margin-left: -1%;
+        border-radius: 15px;
+    }
     .logo {
         width: 100%;
     }
@@ -13,8 +25,25 @@ aside{
         width: 100%;
     }
     .logo-pokebal {
-        width: 100%;
+        width: 80%;
+        margin: 10%;
 
     }
 
+}
+@media screen and (max-width:812px){
+    
+    aside{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    
+}
+@media screen and (max-width:428px){
+    
+    aside{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    
 }

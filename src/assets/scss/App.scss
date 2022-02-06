@@ -37,3 +37,18 @@ html, body {
     grid-template-columns: 3fr 1fr;
     gap: 20px;
 }
+@media screen and (max-width:812px){
+    
+    .app-main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:428px){
+    
+    .app-main{
+        width: 100vw;
+    }
+    
+}

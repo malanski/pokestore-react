@@ -23,7 +23,12 @@ header {
             }
         }
         .logo{
-            width: 250px;
+            width: 30vw;
         }
+    }
+}
+@media screen and (max-width: 428px){
+    header .container-header h1{
+        padding-left: 0;
     }
 }

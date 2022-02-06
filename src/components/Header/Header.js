@@ -4,10 +4,8 @@ import { Nav } from '../Nav';
 import  logo from '../../assets/images/logo.png'
 // import { fa } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
-import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faGithubAlt, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 export function Header() {
     return (

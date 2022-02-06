@@ -119,3 +119,13 @@
         }
     }
 }
+@media screen and (max-width:428px){
+    
+    .poke-main-list{
+        width: 45vw;
+        margin-left: 1.5vw;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    
+}
