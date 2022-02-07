@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pokestore-react/static/css/main.04daef71.css",
-    "main.js": "/pokestore-react/static/js/main.4111083f.js",
+    "main.css": "/pokestore-react/static/css/main.d430f45b.css",
+    "main.js": "/pokestore-react/static/js/main.d6356519.js",
     "static/js/787.c78b0627.chunk.js": "/pokestore-react/static/js/787.c78b0627.chunk.js",
     "static/media/logo.png": "/pokestore-react/static/media/logo.0054868f36d0d2d55c21.png",
     "static/media/logo-cardgame.png": "/pokestore-react/static/media/logo-cardgame.a77f042f44d57a097f8c.png",
     "static/media/logo-pokebal.png": "/pokestore-react/static/media/logo-pokebal.600f0103f4dbd230a3ae.png",
     "index.html": "/pokestore-react/index.html",
-    "main.04daef71.css.map": "/pokestore-react/static/css/main.04daef71.css.map",
-    "main.4111083f.js.map": "/pokestore-react/static/js/main.4111083f.js.map",
+    "main.d430f45b.css.map": "/pokestore-react/static/css/main.d430f45b.css.map",
+    "main.d6356519.js.map": "/pokestore-react/static/js/main.d6356519.js.map",
     "787.c78b0627.chunk.js.map": "/pokestore-react/static/js/787.c78b0627.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04daef71.css",
-    "static/js/main.4111083f.js"
+    "static/css/main.d430f45b.css",
+    "static/js/main.d6356519.js"
   ]
 }
